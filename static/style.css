@@ -1,0 +1,123 @@
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.todos-bg-container {
+  background-color: #f9fbfe;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.todos-heading {
+  text-align: center;
+  font-size: 42px;
+}
+
+.create-task-heading,
+.todo-items-heading {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.todo-user-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: #4c63b6;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+.todo-item-container {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.label-container {
+  background-color: #e6f6ff;
+  border-left: 5px solid #096f92;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.checkbox-label {
+  padding: 10px;
+  margin: 0;
+}
+
+.checkbox-input {
+  margin-right: 10px;
+}
+
+.delete-icon {
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.auth-body {
+  background: linear-gradient(to right, #4c63b6, #6a82fb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+}
+
+.auth-container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+}
+
+.auth-container input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  background: #4c63b6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.auth-container a {
+  color: #4c63b6;
+  text-decoration: none;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo App</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+  <div class="todos-bg-container">
+    <div class="container">
+
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <h1 class="todos-heading">Todos</h1>
+        <a href="/logout" style="color:#4c63b6; text-decoration:none;">Logout</a>
+      </div>
+
+      <h2 class="create-task-heading">
+        Create <span>Task</span>
+      </h2>
+
+      <input
+        type="text"
+        id="todoInput"
+        class="todo-user-input"
+        placeholder="What needs to be done?"
+      />
+
+      <button id="addBtn" class="button">Add</button>
+
+      <h2 class="todo-items-heading">
+        My <span>Tasks</span>
+      </h2>
+
+      <ul id="todoList" class="todo-items-container"></ul>
+
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
